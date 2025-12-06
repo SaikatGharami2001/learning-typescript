@@ -13,7 +13,7 @@ function findUser(id: number): User | undefined {
   return users.find(user => user.id === id);
 }
 
-const result = findUser(1);
+const result = findUser(3);
 
 if (result) {
   console.log(`Found user: ${result.name}`);
