@@ -61,3 +61,14 @@ mySign.Rahul = 9;
 mySign["real"] = 90;
 
 console.log(mySign);
+
+type Count3 = Record<"Name" | "email" | "password" | "age", string | number>;
+
+const myCount3: Count3 = {
+  Name: "Saikat",
+  email: "saikatgharami2@gmail.com",
+  password: "Hello@123",
+  age: 24,
+};
+
+console.log(myCount3);
