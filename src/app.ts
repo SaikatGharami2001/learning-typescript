@@ -1,22 +1,7 @@
-interface User {
-  id: number;
-  name: string;
+function sum(a: number, b: number) {
+  return a + b;
 }
 
-const users: User[] = [
-  { id: 1, name: "Saikat" },
-  { id: 2, name: "David" },
-  { id: 3, name: "Ghost" },
-];
+let total = sum(5, 1);
 
-function findUser(id: number): User | undefined {
-  return users.find(user => user.id === id);
-}
-
-const result = findUser(3);
-
-if (result) {
-  console.log(`Found user: ${result.name}`);
-} else {
-  console.log("User not found");
-}
+console.log(total);

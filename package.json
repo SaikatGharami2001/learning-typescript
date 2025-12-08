@@ -1,8 +1,11 @@
 {
-  "scripts": {
-    "dev": "tsx watch src/app.ts"
-  },
+"scripts": {
+  "build": "tsc",
+  "dev": "nodemon"
+},
   "devDependencies": {
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
