@@ -1,4 +1,6 @@
-let name: string = "Saikat";
-let age: number = 24;
+function add(a: number, b: number): number {
+  return a + b;
+}
 
-console.log(name, age);
+const c = add(3, 3);
+console.log(c); // 6
