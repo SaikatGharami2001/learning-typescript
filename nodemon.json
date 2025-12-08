@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
   "ext": "ts",
-  "exec": "ts-node src/06_asconst.ts",
+  "exec": "ts-node src/10_intersection.ts",
   "ignore": ["dist"]
 }
