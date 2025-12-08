@@ -1,7 +1,4 @@
-function sum(a: number, b: number) {
-  return a + b;
-}
+let name: string = "Saikat";
+let age: number = 24;
 
-let total = sum(5, 1);
-
-console.log(total);
+console.log(name, age);
