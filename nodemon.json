@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
   "ext": "ts",
-  "exec": "ts-node src/practiceObj.ts",
+  "exec": "ts-node src/06_asconst.ts",
   "ignore": ["dist"]
 }
