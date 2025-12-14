@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
   "ext": "ts",
-  "exec": "ts-node src/10_arrays_basic.ts",
+  "exec": "ts-node src/12_index_signature.ts",
   "ignore": ["dist"]
 }

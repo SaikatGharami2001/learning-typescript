@@ -6,4 +6,5 @@ function boolean(flag: boolean): number {
   }
 }
 
-boolean(true);
+const output = boolean(true);
+console.log(output);
